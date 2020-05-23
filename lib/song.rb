@@ -14,8 +14,8 @@ class Song
     @@songs
   end
   
-  extend Memorable, Findable
-  include Paramable
+  extend Memorable::Classmethods, Findable
+  include Paramable, Memorable::Instancemethods
 
   def artist=(artist)
     @artist = artist
