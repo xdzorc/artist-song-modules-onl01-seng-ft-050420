@@ -16,6 +16,7 @@ class Artist
   end
   
   extend Memorable, Findable
+  include Paramable
   
 
 
