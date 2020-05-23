@@ -15,7 +15,7 @@ class Song
   end
   
   extend Memorable, Findable
-  
+  include Paramable
 
   def artist=(artist)
     @artist = artist
