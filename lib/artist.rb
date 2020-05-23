@@ -6,10 +6,10 @@ class Artist
 
   @@artists = []
 
-  # def initialize
-  #   @@artists << self
-  #   @songs = []
-  # end
+  def initialize
+    @@artists << self
+    @songs = []
+  end
 
   def self.all
     @@artists
